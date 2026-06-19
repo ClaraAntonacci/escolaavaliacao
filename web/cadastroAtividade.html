@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Atividade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+
+    <h1>Cadastro de Atividade</h1>
+
+    <div class="usuario">
+
+        <span id="nomeProfessor"></span>
+
+        <button onclick="sair()">
+            Sair
+        </button>
+
+    </div>
+
+</header>
+
+<main>
+
+    <div class="formulario">
+
+        <textarea
+            id="descricao"
+            placeholder="Descrição da atividade"
+            rows="5"></textarea>
+
+        <div class="botoes">
+
+            <button onclick="cadastrarAtividade()">
+                Cadastrar
+            </button>
+
+            <button onclick="voltar()">
+                Voltar
+            </button>
+
+        </div>
+
+    </div>
+
+</main>
+
+<script src="js/cadastroAtividade.js"></script>
+
+</body>
+</html>

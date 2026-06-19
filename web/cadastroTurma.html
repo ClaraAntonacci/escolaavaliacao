@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Turma</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+
+    <h1>Cadastro de Turma</h1>
+
+    <div class="usuario">
+
+        <span id="nomeProfessor"></span>
+
+        <button onclick="sair()">
+            Sair
+        </button>
+
+    </div>
+
+</header>
+
+<main>
+
+    <div class="formulario">
+
+        <input
+            type="text"
+            id="nomeTurma"
+            placeholder="Nome da turma">
+
+        <div class="botoes">
+
+            <button onclick="cadastrarTurma()">
+                Cadastrar
+            </button>
+
+            <button onclick="voltar()">
+                Voltar
+            </button>
+
+        </div>
+
+    </div>
+
+</main>
+
+<script src="js/cadastroTurma.js"></script>
+
+</body>
+</html>
